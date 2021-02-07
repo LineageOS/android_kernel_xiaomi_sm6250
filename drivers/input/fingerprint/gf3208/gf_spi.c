@@ -411,11 +411,6 @@ static void gf_kernel_key_input(struct gf_dev *gf_dev, struct gf_key *gf_key)
 		input_report_key(gf_dev->input, key_input, 0);
 		input_sync(gf_dev->input);
 	}
-
-	if (gf_key->key == GF_KEY_HOME) {
-		input_report_key(gf_dev->input, key_input, gf_key->value);
-		input_sync(gf_dev->input);
-	}
 }
 
 static long gf_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)
