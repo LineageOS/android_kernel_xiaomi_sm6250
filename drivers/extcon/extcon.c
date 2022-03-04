@@ -1330,6 +1330,9 @@ int extcon_dev_register(struct extcon_dev *edev)
 		goto err_dev;
 	}
 
+	for (index = 0; index < edev->max_supported; index++)
+		BLOCKING_INIT_NOTIFIER_HEAD(&edev->bnh[index]);
+
 	mutex_lock(&extcon_dev_list_lock);
 	list_add(&edev->entry, &extcon_dev_list);
 	mutex_unlock(&extcon_dev_list_lock);
