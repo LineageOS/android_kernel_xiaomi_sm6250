@@ -16,6 +16,24 @@
       "message": "```suggestion\n\t\tval-\u003eintval \u003d 5020 * 1000;\n```",
       "revId": "7591cc701a99e94a059d455ab68d262277a3f368",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "76a52695_9b7a83ba",
+        "filename": "drivers/power/supply/qcom/qpnp-smb5.c",
+        "patchSetId": 1
+      },
+      "lineNbr": 2128,
+      "author": {
+        "id": 29080
+      },
+      "writtenOn": "2025-06-30T06:36:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "fdbb4507_b2ab0a9c",
+      "revId": "7591cc701a99e94a059d455ab68d262277a3f368",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
